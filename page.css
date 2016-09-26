@@ -15,8 +15,20 @@
     }
 
     
+    .item0 {
+        background-color: #ffffff;
+        text-align: center;
+    }
 
-    
+    .item0 .part1 {
+        position: absolute;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(imges/loading_agin.gif);
+        width: 100%;
+        height: 50%;
+    }
 
 	.item1 {
         background-color: #ffffff;

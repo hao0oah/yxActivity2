@@ -289,7 +289,8 @@
             }
             $('body').append('<div class="overlay"></div>');
             if (opt.useArrow) {
-                $('.item').slice(0,$('.item').length-1).append('<span class="arrow"></span>');
+                //除了最后一页，都显示向下一页的箭头
+                $('.item').slice(1,$('.item').length-1).append('<span class="arrow"></span>');
             }
             if (opt.useMusic) {
                 var autoplay = opt.useMusic.autoPlay ? 'autoplay="autoplay"' : '';
